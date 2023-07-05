@@ -16,4 +16,5 @@ To work out the deafult profile picture for an account on the current system (a 
 
 IMAGE OF PFPS HERE
 
+## Footnotes
 [^1]: [Modulo](https://en.wikipedia.org/wiki/Modulo) means to divide by and find the remainder.
