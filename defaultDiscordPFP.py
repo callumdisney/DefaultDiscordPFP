@@ -14,15 +14,15 @@ Enter option: """))
 
     if option == 1: #Legacy system
         systemKnown = True
-        desc = int(input("Please enter the user's descriminator (the four numbers after the # in their username): "))
-        modDesc = desc % 5 #desc modulo 5
-        print (f"The profile picture can be seen at: https://cdn.discordapp.com/embed/avatars/{modDesc}.png")
+        disc = int(input("Please enter the user's discriminator (the four numbers after the # in their username): "))
+        modDisc = disc % 5 #disc modulo 5
+        print (f"The profile picture can be seen at: https://cdn.discordapp.com/embed/avatars/{modDisc}.png")
         showImage = ""
         while showImage.capitalize() not in ["Y", "Yes", "N", "No"]:
             showImage = input("Would you like to see the image? [Y]es or [N]o: ")
         if showImage.capitalize() in ["Y", "Yes"]:
             req = Request(
-                url=f'https://cdn.discordapp.com/embed/avatars/{modDesc}.png', #Image URL
+                url=f'https://cdn.discordapp.com/embed/avatars/{modDisc}.png', #Image URL
                 headers={'User-Agent': 'Mozilla/5.0'} #Tells Discord CDN we are using a Mozilla browser
             )
             #Gets the image from the URL and displays it
