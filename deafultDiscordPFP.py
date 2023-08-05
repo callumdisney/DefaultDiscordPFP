@@ -35,9 +35,9 @@ Enter option: """))
     if option == 2: #Current system
         systemKnown = True
         userID = int(input("""
-    To find a user ID: Go to Discord Settings --> Advanced --> Turn on Developer Mode --> Right Click on User --> Click Copy User ID
+To find a user ID: Go to Discord Settings --> Advanced --> Turn on Developer Mode --> Right Click on User --> Click Copy User ID
 
-    Please enter the user's user ID: """))
+Please enter the user's user ID: """))
         shiftedID = userID >> 22 #Right binary shift userID by 22 places
         modID = shiftedID % 6 #shiftedID modulo 6
         
