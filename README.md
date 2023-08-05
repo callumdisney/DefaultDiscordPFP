@@ -1,7 +1,7 @@
 # DeafultDiscordPFP
 
 ## What?
-This program allows you to find the default profile picture for a Discord user.
+This program allows you to find the default profile picture for a Discord user. It then allows you to view this image online, or display it in a little window.
 
 ## Why?
 These profile pictures are not just randomly assigned, as some may assume. They are actually worked out using a bit of mathematics. The method of working it out depends on whether you are using the current username format (the "[Pomelo system](https://discord.fandom.com/wiki/Pomelo)") or legacy username format (with [discriminators](https://discord.fandom.com/wiki/Discriminator)).
