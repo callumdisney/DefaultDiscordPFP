@@ -2,7 +2,7 @@ from urllib.request import Request, urlopen #For opening online images
 from tkinter import * #For pop-up
 from PIL import ImageTk #For image within tk pop-up
 
-systemKnown = False
+systemKnown = False #To repeat menu until system type selected
 while systemKnown == False:
     option = int(input("""
 Is the user using:
